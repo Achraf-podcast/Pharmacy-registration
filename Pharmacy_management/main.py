@@ -6,12 +6,12 @@ import os
 def exit2():
     confirm = messagebox.askyesnocancel("Pharmacy", "Confirm if you wanna to exit")
     if confirm:
-        quit()
+        wind_registration.destroy()
 
 def exit():
     confirm = messagebox.askyesnocancel("Pharmacy", "Confirm if you wanna exit")
     if confirm:
-        quit()
+        wind.destroy()
 
 def reset_registration():
     try:
@@ -66,10 +66,10 @@ def registration():
         except:
             pass
     
-    """try:
+    try:
         wind.destroy()
     except:
-        pass"""
+        pass
     wind_registration = Tk()
     wind_registration.title('Patients registrations')
 
