@@ -146,7 +146,7 @@ def registration():
 
     wind_registration.mainloop()
 
-"""def login():
+def login():
     username = en1.get()
     password = en2.get()
 
@@ -203,5 +203,3 @@ b3 = Button(text='Patients registrations', font=("Calibri", 15), height=1, width
 b3.place(x=265, y=605)
 
 wind.mainloop()
-"""
-registration()
